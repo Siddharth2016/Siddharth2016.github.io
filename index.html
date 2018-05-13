@@ -59,7 +59,7 @@
   		bottom: 0px;
   		width: 100%;
   		padding: 15px;
-  		font-size: 20px;
+  		font-size: 15px;
   		font-weight: bold;
   	}
 
@@ -68,21 +68,196 @@
   		display: block;
   		border-color: #808b96;
   		border-width: 5px;
-  		
-  		margin-right: 30px;
-  		margin-left: 30px;
+  		margin-right: 1%;
+  		margin-left: 1%;
   	}
 
-  	.bg1
+  	.container-fluid
   	{
-  		background-color:    #d6eaf8  ;
+  		padding-top: 30px;
+  		padding-bottom: 30px;
+  		padding-left: 20px;
+  		padding-right: 20px;
   	}
-
-  	.bg2
+  	.card-text
   	{
-  		background-color:     #aed6f1   ;
+  		font-size: 18px;
+  		text-align: justify;
   	}
-  	
+  	#myInternship
+  	{
+  		padding-top: 20px;
+  		padding-left: 20px;
+  		padding-right: 20px;
+  	}
+  	#myLinkedin
+  	{
+  		padding-top: 20px;
+	  	padding-left: 20px;
+	  	padding-right: 20px;
+  	}
+  	#mycard
+  	{
+  		padding-top: 10px;
+  	}
+  	#mytext
+  	{
+  		padding-top: 40px;
+  	}
+  	#myanchor
+  	{
+  		padding-top: 50px;
+  	}
+  	#mygitcard
+  	{
+  		padding-top: 30px;
+  	}
+  	#myp
+  	{
+  		font-size: 28px; 
+  		font-family: Palatino;
+  	}
+  	#myhr
+  	{
+  		padding-top: 20px;
+  	}
+  	#mytitle
+  	{
+  		font-weight: bold;
+  		text-align: center;
+  	}
+  	#special
+  	{
+  		padding-top: 50px;
+  	}
+  	#myrepo
+  	{
+  		min-height: 600px;
+  	}
+  	#myrepolink
+  	{
+  		text-align: center;
+  	}
+  	#myinterntitle
+  	{
+  		font-weight: bold;
+  		padding: 5px;
+  	}
+  	#myinterntext
+  	{
+  		padding: 5px;
+  	}
+  	#myproj
+  	{
+  		min-height: 400px;
+  		padding: 10px;
+  	}
+  	@media only screen and (max-width: 768px)
+  	{
+  		.container-fluid
+	  	{
+	  		padding-top: 20px;
+	  		padding-bottom: 20px;
+	  		padding-left: 10px;
+	  		padding-right: 10px;
+	  	}
+	  	#myInternship
+	  	{
+	  		padding-top: 10px;
+	  		padding-bottom: 10px;
+	  		padding-left: 10px;
+	  		padding-right: 10px;
+	  	}
+	  	#myLinkedin
+	  	{
+	  		padding-top: 10px;
+	  		padding-bottom: 10px;
+	  		padding-left: 10px;
+	  		padding-right: 10px;
+	  	}
+  		.footer
+  		{
+  			font-size: 12px;
+  			padding: 12px;
+  		}
+  		.link
+  		{
+  			border-radius: 10px;
+	  		border-width: 1px;
+	  		padding-left: 18px;
+	  		padding-right: 18px;
+	  		padding-top: 5px;
+	  		padding-bottom: 5px;
+	  		font-size: 16px;
+	  		font-weight: bold;
+	  		letter-spacing: 1px;
+  		}
+  		.card-text
+  		{
+  			font-size: 14px;
+  		}
+  		#mycard
+  		{
+  			padding-top: 0px;
+  		}
+  		#mytext
+  		{
+  			padding-top: 25px;
+  		}
+	  	#myanchor
+	  	{
+	  		padding-top: 10px;
+	  	}
+	  	#mygitcard
+	  	{
+	  		padding-top: 10px;
+	  	}
+	  	#myhr
+	  	{
+	  		padding-top: 5px;
+	  	}
+	  	#myp
+	  	{
+	  		font-size: 18px; 
+	  		font-family: Palatino;
+	  	}
+	  	#mytitle
+	  	{
+	  		font-size: 18px;
+	  	}
+	  	#myinterntitle
+	  	{
+	  		font-size: 18px;
+	  	}
+	  	#myinterntext
+	  	{
+	  		font-size: 12px;
+	  	}
+	  	#myhead
+	  	{
+	  		font-size: 20px;
+	  	}
+	  	#mylink
+	  	{
+	  		font-size: 14px;
+	  	}
+	  	#special
+	  	{
+	  		padding-top: 30px;
+	  	}
+	  	#myrepo
+	  	{
+	  		min-height: 100px;
+	  	}
+	  	#myrepolink a
+	  	{
+	  		font-size: 14px;
+	  	}
+	  	#myproj
+	  	{
+	  		min-height: 200px;
+	  	}
+  	}
   </style>
 
 </head>
@@ -91,24 +266,24 @@
 <body id = "myPage">
 
 <!-- Profile Division -->
-<div class = "container-fluid bg-dark" style="padding-bottom: 60px;">
+<div class = "container-fluid bg-dark">	<!-- ####### -->
 
 	<div class="row">
-	<div class="col-sm-3" style="padding-top: 50px">
+	<div class="col-sm-3" id="mycard">
 	<div class="card bg-light crd">
 
       	<img class="card-img-top" src="mypic.jpg" alt="Siddharth Chandra" style="border-radius: 12px;">
       	
       	<div class="card-body">
 
-      		<h4 class="card-title font-weight-bold">Siddharth Chandra</h4>
+      		<h4 class="card-title font-weight-bold" id="mytitle">Siddharth Chandra</h4>
       	
-      		<p class="card-text text-justify">I am currently working as Software Developer Intern at Enability Foundation for Rehabilitation. I like to solve problems related to Computer Vision and those that involves Python as primary language. I am a Programmer, Competitive Coder and a Machine Learning student.</p>
+      		<p class="card-text text-justify">I am currently working as Software Developer Intern at Enability Foundation for Rehabilitation. I am a Developer, Competitive Coder, Python Enthusiast, an Active Learner and a Machine Learning student.</p>
       	
       		<div class="text-center">
-      		<a href="https://github.com/Siddharth2016" target="_blank" class="btn btn-outline-dark font-weight-bold">GitHub</a>
+      		<a href="https://github.com/Siddharth2016" target="_blank" class="btn btn-outline-dark font-weight-bold" id="mylink">GitHub</a>
       	
-      		<a href="https://www.linkedin.com/in/siddharth-chandra1/" target="_blank" class="btn btn-outline-primary font-weight-bold">LinkedIn</a>
+      		<a href="https://www.linkedin.com/in/siddharth-chandra1/" target="_blank" class="btn btn-outline-primary font-weight-bold" id="mylink">LinkedIn</a>
       		</div>
       	
       	</div>
@@ -116,22 +291,19 @@
     </div>
     </div>
 
-    <div class="col-sm-9" style="padding-top: 80px;">
+    <div class="col-sm-9" id="mytext">
 
     <div class="text-justify text-light">
 
-    	<p style = "font-size:28px; font-family: Palatino; ">
-    		Hello, I am Siddharth Chandra, a Developer, Python Enthusiast and an Active Learner. This is the homepage for my <span class="badge badge-secondary text-monospace">GitHub Repositories</span> , my work during <span class="badge badge-success text-monospace">Internship</span> at <span class="badge badge-success text-monospace">Enability Foundation</span> for Rehabilitation, <span class="badge badge-success text-monospace">IIT Madras</span> and my <span class="badge badge-info text-monospace">Articles</span> featured on <span class="badge badge-info text-monospace">LinkedIn</span>
-    	</p>
-    	<p style = "font-size:28px; font-family: Palatino; padding-top: 20px;">
-    		Please feel free to <span class="badge badge-warning">bookmark</span> this page or follow me on <span class="badge badge-secondary">GitHub</span> or <span class="badge badge-info">LinkedIn</span> to get updated for every new <span class="badge badge-success">Article</span> published.
+    	<p id="myp">
+    		I like to do projects in the field of Image Processing and those that involves Python as the primary language for work and this homepage presents my projects done, not only in image processing, but also in fields like Embedded Systems and IOT. Here you can find my GitHub Repositories , my work during Internship at <span class="badge badge-light text-monospace">Enability Foundation</span> for Rehabilitation , IIT Madras and my Articles featured on LinkedIn. 
     	</p>
 
     		
-   		<div class="row text-center" style="padding-top: 30px;">	
-   		<div class="col-sm-4" style="padding-top: 30px;"><a class="btn btn-outline-light link" href="#myGithub">Projects</a></div>
-   		<div class="col-sm-4" style="padding-top: 30px;"><a class="btn btn-outline-success link" href="#myInternship">Internship</a></div>
-   		<div class="col-sm-4" style="padding-top: 30px;"><a class="btn btn-outline-info link" href="#myLinkedin">LinkedIn Stuff</a></div>
+   		<div class="row text-center">	
+   		<div class="col-sm-4" id="myanchor"><a class="btn btn-outline-light link" href="#myGithub">Projects</a></div>
+   		<div class="col-sm-4" id="myanchor"><a class="btn btn-outline-light link" href="#myInternship">Internship</a></div>
+   		<div class="col-sm-4" id="myanchor"><a class="btn btn-outline-light link" href="#myLinkedin">LinkedIn Stuff</a></div>
     	</div>
     
     </div>
@@ -144,64 +316,64 @@
 <!-- ######################################################################################################## -->
 
 <!-- Project Division -->
-<div class = "container-fluid bg-light" style="padding-bottom: 30px; padding-top: 40px;" id="myGithub">
+<div class = "container-fluid bg-light" id="myGithub"> <!-- ######## -->
   
-	<h2 class="text-center font-weight-bold"><u>Repositories</u> on <kbd>GitHub</kbd></h2>
+	<h2 class="text-center font-weight-bold" id="myhead"><u>Repositories</u> on <kbd>GitHub</kbd></h2>
 
 	<div class="row">
-	<div class="col-sm-3" style="padding-top: 30px;">
+	<div class="col-sm-3" id="mygitcard">
 		
-		<div class="card text-center crdshadow" style="min-height: 560px;">
+		<div class="card crdshadow" id="myrepo">
 		
 		  <img class="card-img-top" src="rsagraphy.png" alt="RSAGraphy Image">
 		
 		  <div class="card-body">
-		    <h4 class="card-title" style="font-weight: bold">RSAGraphy</h4>
+		    <h4 class="card-title" id="mytitle">RSAGraphy</h4>
 		    <p class="card-text">This project implements Image Steganography with RSA key Encryption. This provides 2 layer protection for the message to be send, first with RSA and second with R-color-channel Steganography encoding.</p>
 		  </div>
-		  <div class="card-footer"><a href="https://github.com/Siddharth2016/RSAGraphy" class="btn btn-outline-primary" target="_blank">See Project</a></div>
+		  <div class="card-footer" id="myrepolink"><a href="https://github.com/Siddharth2016/RSAGraphy" class="btn btn-outline-primary" target="_blank">See Project</a></div>
 		
 		</div></div>
 
-	<div class="col-sm-3" style="padding-top: 30px;">
+	<div class="col-sm-3" id="mygitcard">
 
-		<div class="card text-center crdshadow" style="min-height: 560px;">
+		<div class="card crdshadow" id="myrepo">
 		
 		  <img class="card-img-top" src="pycv.png" alt="PyCV Image">
 		
 		  <div class="card-body">
-		    <h4 class="card-title" style="font-weight: bold">PyCV</h4>
+		    <h4 class="card-title" id="mytitle">PyCV</h4>
 		    <p class="card-text">It contains object oriented implementation for several computer vision methods illustrated using OpenCV3 with Python3.</p>
 		  </div>
-		  <div class="card-footer"><a href="https://github.com/Siddharth2016/PyCV" class="btn btn-outline-primary" target="_blank">See Project</a></div>
+		  <div class="card-footer" id="myrepolink"><a href="https://github.com/Siddharth2016/PyCV" class="btn btn-outline-primary" target="_blank">See Project</a></div>
 		
 		</div></div>
 
-	<div class="col-sm-3" style="padding-top: 30px;">
+	<div class="col-sm-3" id="mygitcard">
 
-		<div class="card text-center crdshadow" style="min-height: 560px;">
+		<div class="card crdshadow" id="myrepo">
 		
 		  <img class="card-img-top" src="webscraper.jpg" alt="Web Scrapper Image">
 		
 		  <div class="card-body">
-		    <h4 class="card-title" style="font-weight: bold">Web Scarper</h4>
+		    <h4 class="card-title" id="mytitle">Web Scarper</h4>
 		    <p class="card-text">This project shows a basic yet powerful implementation of web scraper using beautifulsoup4 library in python 3. Data extracted is then saved in (csv) format for further data analysis tasks.</p>
 		  </div>
-		  <div class="card-footer"><a href="https://github.com/Siddharth2016/Web-Scraper" class="btn btn-outline-primary" target="_blank">See Project</a></div>
+		  <div class="card-footer" id="myrepolink"><a href="https://github.com/Siddharth2016/Web-Scraper" class="btn btn-outline-primary" target="_blank">See Project</a></div>
 		
 		</div></div>
 
-	<div class="col-sm-3" style="padding-top: 30px;">
+	<div class="col-sm-3" id="mygitcard">
 
-		<div class="card text-center crdshadow" style="min-height: 560px;">
+		<div class="card crdshadow" id="myrepo">
 		
 		  <img class="card-img-top" src="python3prog.jpg" alt="Python3 programming Image">
 		
 		  <div class="card-body">
-		    <h4 class="card-title" style="font-weight: bold">Python3 Programs</h4>
+		    <h4 class="card-title" id="mytitle">Python3 Programs</h4>
 		    <p class="card-text">Contain solutions to various problems of Hackerearth, Hackerrank and NPTEL PDSA course, in Python3 programming language.</p>
 		  </div>
-		  <div class="card-footer"><a href="https://github.com/Siddharth2016/PYTHON3_prog" class="btn btn-outline-primary" target="_blank">See Project</a></div>
+		  <div class="card-footer" id="myrepolink"><a href="https://github.com/Siddharth2016/PYTHON3_prog" class="btn btn-outline-primary" target="_blank">See Project</a></div>
 		
 		</div></div>
 
@@ -209,104 +381,103 @@
 	
 	<div class = "row">
 	
-	<div class = "col-sm-3" style="padding-top: 30px;">
-		<div class="card text-center crdshadow" style="min-height: 560px;">
+	<div class = "col-sm-3" id="mygitcard">
+		<div class="card crdshadow" id="myrepo">
 		
 		  <img class="card-img-top" src="aqms.jpg" alt="AQMS Image">
 		
 		  <div class="card-body">
-		    <h4 class="card-title" style="font-weight: bold">AQMS</h4>
+		    <h4 class="card-title" id="mytitle">AQMS</h4>
 		    <p class="card-text"> Air Quality Monitoring System - Implements Arduino based air quality monitoring using MQ135 gas sensor. Data collected is analyzed on Thingspeak cloud platform using linear regression and visualized against temperature and humidity.</p>
 		  </div>
-		  <div class="card-footer"><a href="https://github.com/Siddharth2016/AQMS" class="btn btn-outline-primary" target="_blank">See Project</a></div>
+		  <div class="card-footer" id="myrepolink"><a href="https://github.com/Siddharth2016/AQMS" class="btn btn-outline-primary" target="_blank">See Project</a></div>
 		
 		</div>
 	</div>
 
-	<div class="col-sm-3" style="padding-top: 30px;">
-		<div class="card text-center crdshadow" style="min-height: 560px;">
+	<div class="col-sm-3" id="mygitcard">
+		<div class="card crdshadow" id="myrepo">
 		
 		  <img class="card-img-top" src="handgesture.jpg" alt="Handmovement App control Image">
 		
 		  <div class="card-body">
-		    <h4 class="card-title" style="font-weight: bold">HandMovement-AppControl</h4>
+		    <h4 class="card-title" id="mytitle">HandMovement-AppControl</h4>
 		    <p class="card-text">Project implements application control by hand movements. VLC and Chrome browser applications were controlled as final result. US sensors, Arduino and a Python script were used.</p>
 		  </div>
-		  <div class="card-footer"><a href="https://github.com/Siddharth2016/HandMovement-AppControl" class="btn btn-outline-primary" target="_blank">See Project</a></div>
+		  <div class="card-footer" id="myrepolink"><a href="https://github.com/Siddharth2016/HandMovement-AppControl" class="btn btn-outline-primary" target="_blank">See Project</a></div>
 		
 		</div></div>
 
-	<div class="col-sm-3" style="padding-top: 30px;">
-		<div class="card text-center crdshadow" style="min-height: 560px;">
+	<div class="col-sm-3" id="mygitcard">
+		<div class="card crdshadow" id="myrepo">
 		
 		  <img class="card-img-top" src="opencv.png" alt="Opencv-Python Image">
 		
 		  <div class="card-body">
-		    <h4 class="card-title" style="font-weight: bold">Opencv-Python-Computer-Vision</h4>
+		    <h4 class="card-title" id="mytitle">Opencv-Python-Computer-Vision</h4>
 		    <p class="card-text"> Various techniques implemented, used in Computer Vision using Opencv library. Problems discussed on <a href="http://opencv-python-tutroals.readthedocs.io/en/latest/index.html" class = "text-primary">link</a> have been implemented. All the implementations are in Python3 and Opencv3 environment. </p>
 		  </div>
-		  <div class="card-footer"><a href="https://github.com/Siddharth2016/Opencv-Python-Computer-Vision" class="btn btn-outline-primary" target="_blank">See Project</a></div>
+		  <div class="card-footer" id="myrepolink"><a href="https://github.com/Siddharth2016/Opencv-Python-Computer-Vision" class="btn btn-outline-primary" target="_blank">See Project</a></div>
 		
 		</div></div>
 
-	<div class="col-sm-3" style="padding-top: 30px;">
-		<div class="card text-center crdshadow" style="min-height: 560px;">
+	<div class="col-sm-3" id="mygitcard">
+		<div class="card crdshadow" id="myrepo">
 		
 		  <img class="card-img-top" src="medicinfo.jpg" alt="MedicInfo Image">
 		
 		  <div class="card-body">
-		    <h4 class="card-title" style="font-weight: bold">MedicInfo</h4>
+		    <h4 class="card-title" id="mytitle">MedicInfo</h4>
 		    <p class="card-text"> A Health Care website, providing information on several diseases and also medicines used for them. It contains a simple symptom checker and a general quiz section to check the understanding of user about diseases.</p>
 		  </div>
-		  <div class="card-footer"><a href="https://github.com/Siddharth2016/MedicInfo" class="btn btn-outline-primary" target="_blank">See Project</a></div>
+		  <div class="card-footer" id="myrepolink"><a href="https://github.com/Siddharth2016/MedicInfo" class="btn btn-outline-primary" target="_blank">See Project</a></div>
 		
 		</div>
 	</div>
 	</div>
 
 	<div class="row">
-	<div class="col-sm-4" style="padding-top: 30px;"></div>
+	<div class="col-sm-4" id="mygitcard"></div>
 
-	<div class="col-sm-4" style="padding-top: 30px;">
-		<div class="card text-center crdshadow">
+	<div class="col-sm-4" id="mygitcard">
+		<div class="card crdshadow">
 		  <div class="card-body">
-		    <h4 class="card-title" style="font-weight: bold">More Repositories on <span class="badge badge-dark" style = "font-size: 24px;">GitHub</span></h4>
+		    <h4 class="card-title" id="mytitle">More Repositories on <span class="badge badge-dark">GitHub</span></h4>
 		  </div>
-		  <div class="card-footer"><a href="https://github.com/Siddharth2016?tab=repositories" class="btn btn-outline-primary" target="_blank">See Respositories</a></div>
+		  <div class="card-footer" id="myrepolink"><a href="https://github.com/Siddharth2016?tab=repositories" class="btn btn-outline-primary" target="_blank">See Respositories</a></div>
 		
 		</div>
 	</div>
 
-	<div class="col-sm-4" style="padding-top: 30px;"></div>
+	<div class="col-sm-4" id="mygitcard"></div>
 	</div>
 
-<div style="padding-top: 30px;">
+<div id="myhr">
 <hr class="rounded">
 </div>
-</div>
+
 
 <!-- #################################################################################################### -->
 <!-- Internship Section -->
 
-<div class="container-fluid bg1" id="myInternship" style="padding-top: 40px; padding-bottom: 30px;">
+<div id="myInternship"> <!-- ######## -->
 
-	<h2 class="text-center font-weight-bold" style="padding-bottom: 30px;"><u>Work</u> <span class="badge badge-success" style="font-size: 28px;">Experience</span></h2>
+	<h2 class="text-center font-weight-bold" id="myhead"><u>Work</u> <kbd>Experience<kbd></h2>
 
 
 	<div class="row">
 
-		<div class="col-sm-12">
+		<div class="col-sm-12" id="mygitcard">
 
-			<div class="card crdshadow1">
+			<div class="card crdshadow" id="myproj">
 		  	<div class="card-body">
-		    <h4 class="card-title" style="font-weight: bold; padding-top: 20px; padding-left: 20px;">Project <span class="badge badge-success" style="font-size: 24px;">HOPE</span> - Frontend Python Developement</h4>
-		  	</div>
-		  	<div class="card-text text-justify" style="padding-left: 60px; padding-right: 60px; padding-bottom: 20px;">
-		  		<p style="font-size: 20px;">Project <span class="badge badge-success" style="font-size: 18px;">HOPE</span> is intended for People with <span class="badge badge-success text-light" style="font-size: 18px;">Speaking Disability</span>, allowing them to express their feelings through computer aided voice assistant. Application scans through different group of letters, a person has to click the mouse anywhere on the application to select the corresponding group and it jumps to level 2 of execution. Now the person is asked to select a particular letter from the group (achieved through scanning) and after selection of letter, backend function to predict the word is called (Backend developed by another team), here level 3 type execution takes place. After proper forming of the sentence (if user wants to select different word he/she can go back to level 1 and proceed in the same order) level 4 is called to execute text-to-speech module. Frontend was developed using <span class="badge badge-success" style="font-size: 18px;">Tkinter</span> library interface for Python 3.</p>
+		    <h3 class="card-title" id="myinterntitle"><kbd>Frontend Python Developement</kbd></h3><h3 id="myinterntitle"><kbd>Project HOPE</kbd></h3>
+		  	<div class="card-text text-justify" id="myinterntext">
+		  		<p>Project HOPE is intended for People with Speaking Disability, allowing them to express their feelings through computer aided voice assistant. Application scans through different group of letters, a person has to click the mouse anywhere on the application to select the corresponding group and it jumps to level 2 of execution. Now the person is asked to select a particular letter from the group (achieved through scanning) and after selection of letter, backend function to predict the word is called (Backend developed by another team), here level 3 type execution takes place. After proper forming of the sentence (if user wants to select different word he/she can go back to level 1 and proceed in the same order) level 4 is called to execute text-to-speech module. Frontend was developed using <kbd>Tkinter</kbd> library interface for Python 3.</p>
 
-		  		<p style="font-size: 20px; font-weight: bold;">Aim of the project was to make a desktop friendly application using python, that has the following frontend needs :</p>
+		  		<p style="font-weight: bold;">Aim of the project was to make a desktop friendly application using python, that has the following frontend needs :</p>
 
-		  		<ul class = "text-dark" style="font-size: 20px; font-weight: bold;">
+		  		<ul class = "text-dark" style="font-weight: bold;">
 		  			
 		  			<li>Level 1, 2, 3 and 4 design.</li>
 		  			<li>Scanning through each level.</li>
@@ -323,45 +494,51 @@
 		</div>
 
 	</div>
-
-<div style="padding-top: 30px;">
-<hr class="rounded" style="border-color:  #2874a6;">
 </div>
 </div>
 
+<div id="myhr">
+<hr class="rounded">
+</div>
 
-<div class="container-fluid bg2" id="myLinkedin" style="padding-top: 40px; padding-bottom: 80px;">
+<!-- ############################################################################################# -->
+<!-- Linkedin Section -->
 
-	<h2 class="text-center font-weight-bold"><u>Articles</u> on <span class="badge badge-primary" style="font-size: 28px;">LinkedIn</span></h2>
+
+<div id="myLinkedin"> <!-- ####### -->
+
+	<h2 class="text-center font-weight-bold" id="myhead"><u>Articles</u> on <kbd>LinkedIn<kbd></h2>
 
 	<div class="row">
-		<div class="col-sm-4"></div>
-		<div class="col-sm-4" style="padding-top: 30px;">
-			<div class="card text-center crdshadow2" style="min-height: 560px;">
+		<div class="col-sm-4" id="mygitcard"></div>
+		<div class="col-sm-4" id="mygitcard">
+			<div class="card crdshadow" id="myrepo">
 		
 		  	<img class="card-img-top" src="cv_naruto.jpg" alt="Brocading Naruto Image">
 		
 		  	<div class="card-body">
-		    <h4 class="card-title" style="font-weight: bold">Brocading Naruto</h4>
+		    <h4 class="card-title" id="mytitle">Brocading Naruto</h4>
 		    <p class="card-text"> While learning how to do image processing, there are always two terms that we come across from time to time, that is, Convolution and Correlation. This article focusses on Correlation aspect of image processing, that is widely used in image enhancement computer vision applications. Here i have taken one of my favorite anime character Naruto, to help him look awesome among his friends !</p>
 		  	</div>
-		  	<div class="card-footer"><a href="https://www.linkedin.com/pulse/brocading-naruto-computer-vision-fun-siddharth-chandra/" class="btn btn-outline-primary" target="_blank">See Article</a></div>
+		  	<div class="card-footer" id="myrepolink"><a href="https://www.linkedin.com/pulse/brocading-naruto-computer-vision-fun-siddharth-chandra/" class="btn btn-outline-primary" target="_blank">See Article</a></div>
 		
 		</div>
 
 		</div>
-		<div class="col-sm-4"></div>
+		<div class="col-sm-4" id="mygitcard"></div>
 
 	</div>
 
 
-<div style="padding-top: 30px;">
-<hr class="rounded" style="border-color: #154360;">
+
 </div>
+
+<div id="special"></div>
+
 </div>
 
 <div class="footer bg-secondary text-center text-light" >
-		&copy; 2018 Siddharth Chandra , B.Tech at Vellore Institute of Technology
+		&copy; 2018 Siddharth Chandra | <a class="text-light" href="https://github.com/Siddharth2016">GitHub</a> | <a class="text-light" href="https://www.linkedin.com/in/siddharth-chandra1/">LinkedIn</a>
 </div>
 
 <script type="text/javascript">
