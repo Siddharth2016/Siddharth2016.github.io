@@ -1,0 +1,242 @@
+	 	.crd
+  	{
+  		border-width: 2px;
+  		border-color: gray;
+  		border-radius: 15px;
+  	}
+
+  	.crdshadow
+  	{
+  		box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  	}
+
+  	.crdshadow1
+  	{
+  		box-shadow: 0 4px 8px 0 rgba(110, 44, 0, 0.2), 0 6px 20px 0 rgba(110, 44, 0, 0.19);
+  	}
+
+  	.crdshadow2
+  	{
+  		box-shadow: 0 4px 8px 0 rgba(21, 67, 96, 0.2), 0 6px 20px 0 rgba(21, 67, 96, 0.19);
+  	}
+  	.link
+  	{
+  		border-radius: 10px;
+  		border-width: 2px;
+  		padding-left: 24px;
+  		padding-right: 24px;
+  		padding-top: 8px;
+  		padding-bottom: 8px;
+  		font-size: 22px;
+  		font-weight: bold;
+  		letter-spacing: 1px;
+  	}
+
+  	.footer
+  	{
+  		position: fixed;
+  		left: 0px;
+  		bottom: 0px;
+  		width: 100%;
+  		padding: 15px;
+  		font-size: 15px;
+  		font-weight: bold;
+  	}
+
+  	hr
+  	{
+  		display: block;
+  		border-color: #808b96;
+  		border-width: 5px;
+  		margin-right: 1%;
+  		margin-left: 1%;
+  	}
+
+  	.container-fluid
+  	{
+  		padding-top: 30px;
+  		padding-bottom: 30px;
+  		padding-left: 20px;
+  		padding-right: 20px;
+  	}
+  	.card-text
+  	{
+  		font-size: 18px;
+  		text-align: justify;
+  	}
+  	#myInternship
+  	{
+  		padding-top: 20px;
+  		padding-left: 20px;
+  		padding-right: 20px;
+  	}
+  	#myLinkedin
+  	{
+  		padding-top: 20px;
+	  	padding-left: 20px;
+	  	padding-right: 20px;
+  	}
+  	#mycard
+  	{
+  		padding-top: 10px;
+  	}
+  	#mytext
+  	{
+  		padding-top: 40px;
+  	}
+  	#myanchor
+  	{
+  		padding-top: 50px;
+  	}
+  	#mygitcard
+  	{
+  		padding-top: 30px;
+  	}
+  	#myp
+  	{
+  		font-size: 28px; 
+  		font-family: Palatino;
+  	}
+  	#myhr
+  	{
+  		padding-top: 20px;
+  	}
+  	#mytitle
+  	{
+  		font-weight: bold;
+  		text-align: center;
+  	}
+  	#special
+  	{
+  		padding-top: 50px;
+  	}
+  	#myrepo
+  	{
+  		min-height: 600px;
+  	}
+  	#myrepolink
+  	{
+  		text-align: center;
+  	}
+  	#myinterntitle
+  	{
+  		font-weight: bold;
+  		padding: 5px;
+  	}
+  	#myinterntext
+  	{
+  		padding: 5px;
+  	}
+  	#myproj
+  	{
+  		min-height: 400px;
+  		padding: 10px;
+  	}
+  	
+    /* Mobile Friendly layout */
+    @media only screen and (max-width: 768px)
+  	{
+  		.container-fluid
+	  	{
+	  		padding-top: 20px;
+	  		padding-bottom: 20px;
+	  		padding-left: 10px;
+	  		padding-right: 10px;
+	  	}
+	  	#myInternship
+	  	{
+	  		padding-top: 10px;
+	  		padding-bottom: 10px;
+	  		padding-left: 10px;
+	  		padding-right: 10px;
+	  	}
+	  	#myLinkedin
+	  	{
+	  		padding-top: 10px;
+	  		padding-bottom: 10px;
+	  		padding-left: 10px;
+	  		padding-right: 10px;
+	  	}
+  		.footer
+  		{
+  			font-size: 12px;
+  			padding: 12px;
+  		}
+  		.link
+  		{
+  			border-radius: 10px;
+	  		border-width: 1px;
+	  		padding-left: 18px;
+	  		padding-right: 18px;
+	  		padding-top: 5px;
+	  		padding-bottom: 5px;
+	  		font-size: 16px;
+	  		font-weight: bold;
+	  		letter-spacing: 1px;
+  		}
+  		.card-text
+  		{
+  			font-size: 14px;
+  		}
+  		#mycard
+  		{
+  			padding-top: 0px;
+  		}
+  		#mytext
+  		{
+  			padding-top: 25px;
+  		}
+	  	#myanchor
+	  	{
+	  		padding-top: 10px;
+	  	}
+	  	#mygitcard
+	  	{
+	  		padding-top: 10px;
+	  	}
+	  	#myhr
+	  	{
+	  		padding-top: 5px;
+	  	}
+	  	#myp
+	  	{
+	  		font-size: 18px; 
+	  		font-family: Palatino;
+	  	}
+	  	#mytitle
+	  	{
+	  		font-size: 18px;
+	  	}
+	  	#myinterntitle
+	  	{
+	  		font-size: 18px;
+	  	}
+	  	#myinterntext
+	  	{
+	  		font-size: 12px;
+	  	}
+	  	#myhead
+	  	{
+	  		font-size: 20px;
+	  	}
+	  	#mylink
+	  	{
+	  		font-size: 14px;
+	  	}
+	  	#special
+	  	{
+	  		padding-top: 30px;
+	  	}
+	  	#myrepo
+	  	{
+	  		min-height: 100px;
+	  	}
+	  	#myrepolink a
+	  	{
+	  		font-size: 14px;
+	  	}
+	  	#myproj
+	  	{
+	  		min-height: 200px;
+	  	}
+  	}
