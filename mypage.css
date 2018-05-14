@@ -19,7 +19,7 @@
   	{
   		box-shadow: 0 4px 8px 0 rgba(21, 67, 96, 0.2), 0 6px 20px 0 rgba(21, 67, 96, 0.19);
   	}
-  	.link
+  	#link
   	{
   		border-radius: 10px;
   		border-width: 2px;
@@ -27,7 +27,7 @@
   		padding-right: 24px;
   		padding-top: 8px;
   		padding-bottom: 8px;
-  		font-size: 22px;
+  		font-size: 26px;
   		font-weight: bold;
   		letter-spacing: 1px;
   	}
@@ -162,7 +162,7 @@
   			font-size: 12px;
   			padding: 12px;
   		}
-  		.link
+  		#link
   		{
   			border-radius: 10px;
 	  		border-width: 1px;
