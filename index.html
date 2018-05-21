@@ -1,6 +1,10 @@
 <!DOCTYPE html>
-
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang=""> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8" lang=""> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9" lang=""> <![endif]-->
+<!--[if gt IE 8]><!-->
 <html lang="en">
+<!--<![endif]-->
 
 <head>
 
@@ -17,11 +21,11 @@
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"></script>
-
+  <link href='https://fonts.googleapis.com/css?family=Andada' rel='stylesheet'>
 
   <style type="text/css">
   	
-  		 	.crd
+  	.crd
   	{
   		border-width: 2px;
   		border-color: gray;
@@ -41,18 +45,6 @@
   	.crdshadow2
   	{
   		box-shadow: 0 4px 8px 0 rgba(21, 67, 96, 0.2), 0 6px 20px 0 rgba(21, 67, 96, 0.19);
-  	}
-  	#link
-  	{
-  		border-radius: 10px;
-  		border-width: 2px;
-  		padding-left: 24px;
-  		padding-right: 24px;
-  		padding-top: 8px;
-  		padding-bottom: 8px;
-  		font-size: 26px;
-  		font-weight: bold;
-  		letter-spacing: 1px;
   	}
 
   	.footer
@@ -106,10 +98,6 @@
   	{
   		padding-top: 40px;
   	}
-  	#myanchor
-  	{
-  		padding-top: 50px;
-  	}
   	#mygitcard
   	{
   		padding-top: 30px;
@@ -117,7 +105,12 @@
   	#myp
   	{
   		font-size: 28px; 
-  		font-family: Palatino;
+  		font-family: "Andada";
+  	}
+  	#myp2
+  	{
+  		font-size: 24px;
+  		font-family: "Andada";
   	}
   	#myhr
   	{
@@ -126,7 +119,8 @@
   	#mytitle
   	{
   		font-weight: bold;
-  		text-align: center;
+  		font-size: 38px;
+  		font-family: "Andada";
   	}
   	#special
   	{
@@ -153,6 +147,18 @@
   	{
   		min-height: 400px;
   		padding: 10px;
+  	}
+  	#myanchor
+  	{
+  		padding-right: 10px;
+  		font-family: "Andada";
+  		font-size: 20px;
+  	}
+  	#myanchor:hover
+  	{
+  		text-decoration: underline;
+  		text-decoration-color: white; 
+
   	}
   	
     /* Mobile Friendly layout */
@@ -184,34 +190,19 @@
   			font-size: 12px;
   			padding: 12px;
   		}
-  		#link
-  		{
-  			border-radius: 10px;
-	  		border-width: 1px;
-	  		padding-left: 18px;
-	  		padding-right: 18px;
-	  		padding-top: 5px;
-	  		padding-bottom: 5px;
-	  		font-size: 16px;
-	  		font-weight: bold;
-	  		letter-spacing: 1px;
-  		}
   		.card-text
   		{
   			font-size: 14px;
   		}
-  		#mycard
+  		#myanchor
   		{
-  			padding-top: 0px;
+  			padding-right: 5px;
+  			font-size: 14px;
   		}
   		#mytext
   		{
   			padding-top: 25px;
   		}
-	  	#myanchor
-	  	{
-	  		padding-top: 10px;
-	  	}
 	  	#mygitcard
 	  	{
 	  		padding-top: 10px;
@@ -223,11 +214,15 @@
 	  	#myp
 	  	{
 	  		font-size: 18px; 
-	  		font-family: Palatino;
+	  		font-family: "Andada";
+	  	}
+	  	#myp2
+	  	{
+	  		font-size: 16px;
 	  	}
 	  	#mytitle
 	  	{
-	  		font-size: 18px;
+	  		font-size: 16px;
 	  	}
 	  	#myinterntitle
 	  	{
@@ -270,54 +265,58 @@
 <body id = "myPage">
 
 <!-- Profile Division -->
+	
+<nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="collapsibleNavbar">
+  <ul class="navbar-nav">
+    <li class="nav-item" id="myanchor">
+      <a class="nav-link text-light" href="#myGithub">PROJECTS</a>
+    </li>
+    <li class="nav-item" id="myanchor">
+      <a class="nav-link text-light" href="#myInternship">EXPERIENCE</a>
+    </li>
+    <li class="nav-item" id="myanchor">
+      <a class="nav-link text-light" href="#myLinkedin">ARTICLES</a>
+    </li>
+    <li class="nav-item" id="myanchor">
+      <a class="nav-link text-light" href="https://www.linkedin.com/in/siddharth-chandra1/">LINKEDIN</a>
+    </li>
+    <li class="nav-item" id="myanchor">
+      <a class="nav-link text-light" href="https://github.com/Siddharth2016/">GITHUB</a>
+    </li>
+  </ul>
+  </div>
+</nav>
+
 <div class = "container-fluid bg-dark">	<!-- ####### -->
-
+	
 	<div class="row">
-	
-	<div class="col-sm-3" id="mycard">
-	
-	<div class="card bg-light crd">
-      	<img class="card-img-top" src="mypic.jpg" alt="Siddharth Chandra" style="border-radius: 12px;">
-      	
-      	<div class="card-body">
-
-      		<h4 class="card-title font-weight-bold" id="mytitle">Siddharth Chandra</h4>
-      		<p class="card-text text-justify">I am currently working as Software Developer Intern at Enability Foundation for Rehabilitation. I am a Developer, Competitive Coder, Python Enthusiast, an Active Learner and a Machine Learning student.</p>
-      	
-      		<div class="text-center">
-      		<a href="https://github.com/Siddharth2016" target="_blank" class="btn btn-outline-dark font-weight-bold" id="mylink">GitHub</a>
-      	
-      		<a href="https://www.linkedin.com/in/siddharth-chandra1/" target="_blank" class="btn btn-outline-primary font-weight-bold" id="mylink">LinkedIn</a>
-      		</div>
-      	
-      	</div>
+	<div class="col-sm-12 text-center">
+	<img src="mypic.jpg" class="rounded-circle" alt="Siddharth Chandra">
 	</div>
-
-    </div>
-
-    <div class="col-sm-9" id="mytext">
-	<div class="text-justify text-light">
-
-    	<p id="myp">
-    		I like to do projects in the field of Image Processing and those that involves Python as the primary language for work and this homepage presents my projects done, not only in image processing, but also in fields like Embedded Systems and IOT. Here you can find my GitHub Repositories , my work during Internship at <span class="badge badge-light text-monospace">Enability Foundation</span> for Rehabilitation , IIT Madras and my Articles featured on LinkedIn. 
-    	</p>
-
-    		
-   		<div class="row text-center">
-
-   		<div class="col-sm-4" id="myanchor"><a class="btn btn-outline-light" id="link" href="#myGithub">Projects</a></div>
-
-   		<div class="col-sm-4" id="myanchor"><a class="btn btn-outline-light" id="link" href="#myInternship">Internship</a></div>
-
-   		<div class="col-sm-4" id="myanchor"><a class="btn btn-outline-light" id="link" href="#myLinkedin">LinkedIn Stuff</a></div>
-
-    	</div>
-    
-    </div>
-    </div>
-    </div>
-
-</div>
+	</div>
+	<br>
+	<div class="row">
+	<div class="col-sm-12 text-center text-light">
+	<span id="mytitle">Hello, I am Siddharth Chandra</span>
+	</div>
+	</div>
+	<br>
+	<div class="row">
+	<div class="col-sm-12 text-center text-light">
+	<p id="myp">
+		I am a Developer, Competitive Coder, Python Enthusiast, an Active Learner and a Machine Learning novice. I love to solve Computer Vision problems and those that involves Python as primary language.
+	</p>
+	<p id="myp2"> 
+		Here you can find my GitHub repositories, Internship work and Articles featured on LinkedIn.
+	</p>
+	</div>
+	</div>
 
 </div>
 
@@ -571,7 +570,7 @@
 
 </div>
 
-<div class="footer bg-secondary text-center text-light" >
+<div class="footer bg-dark text-center text-light" >
 		&copy; 2018 Siddharth Chandra
 </div>
 
