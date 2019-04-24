@@ -36,8 +36,8 @@
   		left: 0px;
   		bottom: 0px;
   		width: 100%;
-  		padding: 15px;
-  		font-size: 15px;
+  		padding: 12px;
+  		font-size: 14px;
   		font-weight: bold;
   		background-color: #131313;
   	}
@@ -55,6 +55,7 @@
   		text-align: center;
   		font-family: "Roboto Slab"
   	}
+
   	#myhead
   	{
   		font-family: "Roboto Slab";
@@ -132,6 +133,15 @@
   		text-decoration: underline;
   		text-decoration-color: white; 
   	}
+  	#profileimg
+  	{
+  		border-radius: 50%;
+  		display: block;
+  		margin-left: auto;
+  		margin-right: auto;
+  		max-width: 100%;
+  		height: auto;
+  	}
 
     /* Mobile Friendly layout */
     @media only screen and (max-width: 768px)
@@ -146,7 +156,7 @@
   		.footer
   		{
   			font-size: 12px;
-  			padding: 12px;
+  			padding: 10px;
   		}
   		.card-text
   		{
@@ -203,6 +213,15 @@
 	  	{
 	  		min-height: 200px;
 	  	}
+	  	#profileimg
+  		{
+  			border-radius: 50%;
+	  		display: block;
+	  		margin-left: auto;
+	  		margin-right: auto;
+	  		max-width: 60%;
+	  		height: auto;
+  		}
   	}
   	
   </style>
@@ -249,8 +268,8 @@
 <div class = "container-fluid bg-dark">	<!-- ####### -->
 	
 	<div class="row">
-	<div class="col-sm-12 text-center">
-	<img src="mypic.jpg" class="rounded-circle" alt="Siddharth Chandra">
+	<div class="col-sm-12">
+	<img src="mypic.jpg" id="profileimg" alt="Siddharth Chandra">
 	</div>
 	</div>
 	<br>
@@ -560,7 +579,7 @@
 <div class="container-fluid bg-light"></div>
 
 <div class="footer text-center text-light" >
-		&copy; 2018 Siddharth Chandra | <a class = "text-light" href="mailto:siddharthchandragzb@gmail.com?Subject=Regarding%20" target="_top">Email</a> | <a class = "text-light" href="https://github.com/Siddharth2016/Siddharth2016.github.io" target="_blank">View on GitHub</a>
+		<a class = "text-light" href="mailto:siddharthchandragzb@gmail.com?Subject=Regarding%20" target="_top">Email</a> | <a class = "text-light" href="https://github.com/Siddharth2016/Siddharth2016.github.io" target="_blank">View on GitHub</a>
 </div>
 
 <!-- Javascript for smooth scrolling -->
