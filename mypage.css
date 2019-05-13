@@ -9,8 +9,8 @@
   		left: 0px;
   		bottom: 0px;
   		width: 100%;
-  		padding: 12px;
-  		font-size: 14px;
+  		padding: 10px;
+  		font-size: 12px;
   		font-weight: bold;
   		background-color: #131313;
   	}
@@ -128,8 +128,8 @@
 	  	}
   		.footer
   		{
-  			font-size: 12px;
-  			padding: 10px;
+  			font-size: 10px;
+  			padding: 8px;
   		}
   		.card-text
   		{
