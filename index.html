@@ -25,209 +25,6 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"></script>
 
-  <!-- Main Script -->
-  <style type="text/css">
-
-  	.crdshadow
-  	{
-  		box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-  	}
-
-  	.footer
-  	{
-  		position: fixed;
-  		left: 0px;
-  		bottom: 0px;
-  		width: 100%;
-  		padding: 12px;
-  		font-size: 14px;
-  		font-weight: bold;
-  		background-color: #131313;
-  	}
-
-  	.container-fluid
-  	{
-  		padding-top: 30px;
-  		padding-bottom: 30px;
-  		padding-left: 20px;
-  		padding-right: 20px;
-  	}
-  	.card-text
-  	{
-  		font-size: 16px;
-  		text-align: center;
-  		font-family: "Roboto Slab"
-  	}
-
-  	#myhead
-  	{
-  		font-family: "Roboto Slab";
-  	}
-  	#mygitcard
-  	{
-  		padding-top: 20px;
-  	}
-  	#myp
-  	{
-  		font-size: 24px; 
-  		font-family: "Roboto Slab";
-  		word-spacing: 1px;
-  	}
-  	#myp2
-  	{
-  		font-size: 20px;
-  		font-family: "Roboto Slab";
-  		word-spacing: 1px;
-  	}
-  	#mytitle
-  	{
-  		font-weight: bold;
-  		font-size: 36px;
-  		font-family: "Roboto Slab";
-  	}
-  	#mygittitle
-  	{
-  		font-weight: bold;
-  		font-size: 20px;
-  		font-family: "Roboto Slab";
-  		text-align: center;
-  	}
-  	#myrepo
-  	{
-  		min-height: 400px;
-  	}
-  	#myrepolink
-  	{
-  		text-align: center;
-  		font-family: "Roboto Slab"
-  	}
-  	#myinterntitle
-  	{
-  		font-weight: bold;
-  		padding: 5px;
-  	}
-  	#myinterntext
-  	{
-  		padding: 5px;
-  	}
-  	#myproj
-  	{
-  		min-height: 50%;
-  		padding: 10px;
-  	}
-  	#myanchor
-  	{
-  		padding-right: 60px;
-  		font-family: "Roboto Slab";
-  		font-size: 18px;
-  	}
-  	#myanchor2
-  	{
-  		font-family: "Roboto Slab";
-  		font-size: 18px;
-  	}
-  	#myanchor:hover
-  	{
-  		text-decoration: underline;
-  		text-decoration-color: white; 
-  	}
-  	#myanchor2:hover
-  	{
-  		text-decoration: underline;
-  		text-decoration-color: white; 
-  	}
-  	#profileimg
-  	{
-  		border-radius: 50%;
-  		display: block;
-  		margin-left: auto;
-  		margin-right: auto;
-  		max-width: 100%;
-  		height: auto;
-  	}
-
-    /* Mobile Friendly layout */
-    @media only screen and (max-width: 768px)
-  	{
-  		.container-fluid
-	  	{
-	  		padding-top: 20px;
-	  		padding-bottom: 20px;
-	  		padding-left: 10px;
-	  		padding-right: 10px;
-	  	}
-  		.footer
-  		{
-  			font-size: 12px;
-  			padding: 10px;
-  		}
-  		.card-text
-  		{
-  			font-size: 13px;
-  		}
-  		#myanchor
-  		{
-  			padding-right: 5px;
-  			font-size: 13px;
-  		}
-  		#myanchor2
-  		{
-  			padding-right: 5px;
-  			font-size: 13px;
-  		}
-	  	#mygitcard
-	  	{
-	  		padding-top: 5px;
-	  	}
-	  	#myp
-	  	{
-	  		font-size: 18px; 
-	  		font-family: "Roboto Slab";
-	  	}
-	  	#myp2
-	  	{
-	  		font-size: 16px;
-	  	}
-	  	#mytitle
-	  	{
-	  		font-size: 16px;
-	  	}
-	  	#mygittitle
-	  	{
-	  		font-size: 16px;
-	  	}
-	  	#myinterntitle
-	  	{
-	  		font-size: 18px;
-	  	}
-	  	#myhead
-	  	{
-	  		font-size: 18px;
-	  	}	  	
-	  	#myrepo
-	  	{
-	  		min-height: 50px;
-	  	}
-	  	#myrepolink a
-	  	{
-	  		font-size: 12px;
-	  	}
-	  	#myproj
-	  	{
-	  		min-height: 25%;
-	  	}
-	  	#profileimg
-  		{
-  			border-radius: 50%;
-	  		display: block;
-	  		margin-left: auto;
-	  		margin-right: auto;
-	  		max-width: 60%;
-	  		height: auto;
-  		}
-  	}
-  	
-  </style>
 </head>
 
 <!-- Body of the Page -->
@@ -244,25 +41,17 @@
   <div class="collapse navbar-collapse justify-content-center" id="collapsibleNavbar">
   <ul class="navbar-nav">
     <li class="nav-item" id="myanchor">
-      <a class="nav-link text-light" href="#myGithub">PROJECTS</a>
+      <a class="nav-link text-light" href="Resume.pdf" download="Siddharth-Chandra.pdf">RESUME</a>
     </li>
-    <li class="nav-item" id="myanchor">
-      <a class="nav-link text-light" href="#myInternship">EXPERIENCE</a>
-    </li>
-    <li class="nav-item" id="myanchor">
-      <a class="nav-link text-light" href="Resume.pdf" download="Siddharth-Chandra.pdf">MY RESUME</a>
-    </li>
-    <li class="nav-item" id="myanchor">
-      <a class="nav-link text-light" href="#myLinkedin">ARTICLES</a>
-    </li>
-    <li class="nav-item" id="myanchor">
-      <a class="nav-link text-light" href="https://www.linkedin.com/in/siddharth-chandra1/" target="_blank">LINKEDIN</a>
+   <li class="nav-item" id="myanchor">
+      <a class="nav-link text-light" href="https://www.hackerearth.com/@chandraji" target="_blank">HACKER-EARTH</a>
     </li>
     <li class="nav-item" id="myanchor">
       <a class="nav-link text-light" href="https://github.com/Siddharth2016/" target="_blank">GITHUB</a>
     </li>
-    <li class="nav-item" id="myanchor2">
-      <a class="nav-link text-light" href="https://www.hackerrank.com/siddharthchandr1" target="_blank">HACKERRANK</a>
+    <li class="nav-item" id="myanchor">
+      <a class="nav-link text-light" href="https://www.linkedin.com/in/siddharth-chandra1/" target="_blank">LINKEDIN</a>
+    </li>
     </li>
   </ul>
   </div>
