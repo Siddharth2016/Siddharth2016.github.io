@@ -89,22 +89,22 @@
   	{
   		padding-right: 60px;
   		font-family: "Roboto Slab";
-  		font-size: 18px;
+  		font-size: 16px;
   	}
   	#myanchor2
   	{
   		font-family: "Roboto Slab";
-  		font-size: 18px;
+  		font-size: 16px;
   	}
   	#myanchor:hover
   	{
   		text-decoration: underline;
-  		text-decoration-color: white; 
+  		text-decoration-color: black; 
   	}
   	#myanchor2:hover
   	{
   		text-decoration: underline;
-  		text-decoration-color: white; 
+  		text-decoration-color: black; 
   	}
   	#profileimg
   	{
@@ -138,12 +138,12 @@
   		#myanchor
   		{
   			padding-right: 5px;
-  			font-size: 13px;
+  			font-size: 12px;
   		}
   		#myanchor2
   		{
   			padding-right: 5px;
-  			font-size: 13px;
+  			font-size: 12px;
   		}
 	  	#mygitcard
 	  	{
