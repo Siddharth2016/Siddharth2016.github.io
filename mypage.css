@@ -87,25 +87,18 @@
   	}
   	#myanchor
   	{
-  		padding-right: 60px;
   		font-family: "Roboto Slab";
   		font-size: 16px;
   	}
-  	#myanchor2
-  	{
-  		font-family: "Roboto Slab";
-  		font-size: 16px;
-  	}
-  	#myanchor:hover
+  	#myanchor a:hover
   	{
   		text-decoration: underline;
   		text-decoration-color: black; 
   	}
-  	#myanchor2:hover
-  	{
-  		text-decoration: underline;
-  		text-decoration-color: black; 
-  	}
+    #myanchorspace
+    {
+      padding-right: 50px; 
+    }
   	#profileimg
   	{
   		border-radius: 50%;
@@ -136,11 +129,6 @@
   			font-size: 13px;
   		}
   		#myanchor
-  		{
-  			padding-right: 5px;
-  			font-size: 12px;
-  		}
-  		#myanchor2
   		{
   			padding-right: 5px;
   			font-size: 12px;
